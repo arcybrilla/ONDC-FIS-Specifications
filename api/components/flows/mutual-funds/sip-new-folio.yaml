@@ -1,6 +1,6 @@
 summary: SIP Creation (New Folio)
 details:
-  - description: '1) If first instalment has to be generated immediately, buyer app passes the optional `instructions` attribute in the fulfillment stop next to `time` attribute. eg. `"instructions": { "code": "GENERATE_FIRST_INSTALMENT" }` 2) If first instalment has to be generated immediately and prepone rest of the installment one frequency unit early, buyer app passes the optional `instructions` attribute in the fulfillment stop next to `time` attribute. eg. `"instructions": { "code": "GENERATE_FIRST_INSTALMENT_AND_PREPONE_OTHERS" }`'
+  - description: "1) If first instalment has to be generated immediately, buyer app passes the optional `instructions` attribute in the fulfillment stop next to `time` attribute. eg. `"instructions": { "code": "GENERATE_FIRST_INSTALMENT" }` 2) If first instalment has to be generated immediately and rest of the installments have to be preponed by one frequency unit early, buyer app passes the optional `instructions` attribute in the fulfillment stop next to `time` attribute. eg. `"instructions": { "code": "GENERATE_FIRST_INSTALMENT_AND_PREPONE_OTHERS" }`."
 
 steps:
   - summary: Select
